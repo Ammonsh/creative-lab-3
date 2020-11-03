@@ -11,6 +11,20 @@ let bookData = [{
     author: "Brandon Sanderson",
     genre: "Fantasy",
     image: 'words-of-radiance.jpg'
+},
+{
+    id: 3,
+    title: "Edgedancer",
+    author: "Brandon Sanderson",
+    genre: "Fantasy",
+    image: 'edgedancer.jpg'
+},
+{
+    id: 4,
+    title: "Oathbringer",
+    author: "Brandon Sanderson",
+    genre: "Fantasy",
+    image: 'oathbringer.jpg'
 }
 ]
 
