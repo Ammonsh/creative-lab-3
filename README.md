@@ -8,8 +8,6 @@ Pages:
 HOME
   Home Page - Lets you search books based off of title
 
-Finished
-  Read ហើយៗ - can review these books
+Genre: sorts books based off of Genre
 
-New
-  Books not yet read - these have a button you can check when you've read them.
+New: Lets you add a book
