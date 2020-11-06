@@ -1,4 +1,12 @@
 let bookData = [{
+    id: 0,
+    title: "IT",
+    author: "Stephen King",
+    genre: "Horror",
+    image: 'it.jpg',
+    finished: false
+},
+{
     id: 1,
     title: "The Way of Kings",
     author: "Brandon Sanderson",
@@ -16,10 +24,10 @@ let bookData = [{
 },
 {
     id: 3,
-    title: "Edgedancer",
-    author: "Brandon Sanderson",
-    genre: "Fantasy",
-    image: 'edgedancer.jpg',
+    title: "The Little Prince",
+    author: "Antoine De Saint-Exupery",
+    genre: "Children's literature",
+    image: 'the-little-prince.jpg',
     finished: true
 },
 {
@@ -104,10 +112,10 @@ let bookData = [{
 },
 {
     id: 14,
-    title: "The Little Prince",
-    author: "Antoine De Saint-Exupery",
-    genre: "Children's literature",
-    image: 'the-little-prince.jpg',
+    title: "Edgedancer",
+    author: "Brandon Sanderson",
+    genre: "Fantasy",
+    image: 'edgedancer.jpg',
     finished: true
 },
 {
@@ -128,11 +136,11 @@ let bookData = [{
 },
 {
     id: 17,
-    title: "IT",
-    author: "Stephen King",
-    genre: "Horror",
-    image: 'it.jpg',
-    finished: false
+    title: "Starsight",
+    author: "Brandon Sanderson",
+    genre: "Science-fiction",
+    image: 'starsight.jpg',
+    finished: true
 },
 {
     id: 18,
@@ -140,6 +148,14 @@ let bookData = [{
     author: "Robert Jordan",
     genre: "Fantasy",
     image: "the-eye-of-the-world.jpg",
+    finished: true
+},
+{
+    id: 19,
+    title: "The Great Hunt",
+    author: "Robert Jordan",
+    genre: "Fantasy",
+    image: "the-great-hunt.jpg",
     finished: true
 }
 ]

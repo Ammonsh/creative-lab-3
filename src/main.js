@@ -6,9 +6,7 @@ import bookData from './data.js'
 Vue.config.productionTip = false
 
 let data = {
-  books: bookData,
-  finished: [],
-  unfinished: []
+  books: bookData
 }
 
 new Vue({

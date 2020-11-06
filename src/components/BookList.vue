@@ -41,13 +41,13 @@ export default {
 .book {
   margin: 10px;
   margin-top: 50px;
-  width: 200px;
+  width: 260px;
 }
 
 .book img {
   border: 2px solid #333;
-  height: 300px;
-  width: 200px;
+  height: 410px;
+  width: 260px;
   object-fit: cover;
 }
 
@@ -65,23 +65,12 @@ export default {
 }
 
 .info h1 {
-  font-size: 14px;
-}
-
-.info h2 {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .info p {
   margin: 0px;
   font-size: 10px;
-}
-
-button {
-  height: 50px;
-  background: #000;
-  color: white;
-  border: none;
 }
 
 .auto {
