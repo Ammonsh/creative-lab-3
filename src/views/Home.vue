@@ -8,6 +8,12 @@
     </div>
   </div>
   <BookList :books="books" />
+  <footer style="left: 0; bottom: 0; width: 100%; text-align: center;">
+      <a
+        href="https://github.com/Ammonsh/creative-lab-3.git"
+        >Github link</a
+      >
+  </footer>
 </div>
 </template>
 
