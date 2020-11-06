@@ -1,28 +1,32 @@
 <template>
-<div id="app">
-  <div id="menu">
-    <div id="brand">
-      <router-link to="/">
-        <i class="fas fa-book-open"></i>
-      </router-link>
+  <div id="app">
+    <div id="menu">
+      <div id="brand">
+        <router-link to="/">
+          <img src="/images/book.png">
+        </router-link>
+      </div>
+      <div id="side">
+        <router-link to="/finished">
+          <div class="menu-item browse">
+            <span style="font-size: 30px; color: Dodgerblue">
+              <i class="fas fa-book"></i>
+            </span>
+            <p>Finished</p>
+          </div>
+        </router-link>
+        <router-link to="/new">
+          <div class="menu-item">
+            <span style="font-size: 30px; color: Dodgerblue">
+              <i class="fas fa-book-open"></i>
+            </span>
+            <p>Unfinished</p>
+          </div>
+        </router-link>
+      </div>
     </div>
-    <div id="side">
-      <router-link to="/browse">
-        <div class="menu-item browse">
-          <img src="/images/globe.png">
-          <p>Browse</p>
-        </div>
-      </router-link>
-      <router-link to="/cart">
-        <div class="menu-item">
-          <img src="/images/love.png">
-          <p>0 items</p>
-        </div>
-      </router-link>
-    </div>
+    <router-view />
   </div>
-  <router-view />
-</div>
 </template>
 
 <style>
@@ -32,7 +36,6 @@
 
 body {
   margin: 50px 100px;
-
 }
 
 #menu {
@@ -44,7 +47,7 @@ body {
 }
 
 #menu a {
-  color: #B84901;
+  color: #b84901;
 }
 
 #brand {

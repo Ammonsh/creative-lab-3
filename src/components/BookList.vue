@@ -5,12 +5,10 @@
       <div class="info">
         <h1>{{book.title}}</h1>
         <p>{{book.author}}</p>
+        <p>{{book.genre}}</p>
       </div>
       <div class="image">
         <img :src="'/images/books/'+book.image">
-      </div>
-      <div class="genre">
-        <h2>{{book.genre}}</h2>
       </div>
     </div>
   </div>
@@ -67,21 +65,16 @@ export default {
 }
 
 .info h1 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .info h2 {
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .info p {
   margin: 0px;
   font-size: 10px;
-}
-
-
-.genre {
-  display: flex;
 }
 
 button {
