@@ -1,5 +1,9 @@
 # creative-lab-3
 CS260 Creative Lab #3
+A database of the books I own, and if I have read them or not.
+  
+Home: Lets you search books based off of title
 
-Idea:
-  It will be a database of all the books I own, if I have read them or not, and what ratings I give them.
+Finished: All the books I have read.
+
+Unfinished: All the books I have not read.
